@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "export dev=true && node dev.js",
+    "build": "node dev.js"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vue/compiler-dom": "^3.2.37",
+    "@vue/compiler-sfc": "^3.2.37",
+    "@vue/shared": "^3.2.37",
+    "esbuild": "^0.14.49",
+    "esbuild-plugin-vue-next": "^0.1.4"
+  }
+}
