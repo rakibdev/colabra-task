@@ -14,7 +14,7 @@ const html = `<!DOCTYPE html>
 <head>
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <title>Colabra Task</title>
+  <title>Slot Machine</title>
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <link rel="stylesheet" href="app.css" />
 </head>

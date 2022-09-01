@@ -1,6 +1,6 @@
 `pnpm install` & `pnpm run dev`
 
-# 4 hour Vue 3 take-home assignment for a company interview.
+### 4 hour take-home assignment for a company interview.
 
 - Include simple 3 blocks 1 row, and "start", "cash out" button.
 - Use SVG for fruits (cherry, lemon, orange, watermelon).
