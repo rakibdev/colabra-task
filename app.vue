@@ -32,8 +32,7 @@ import cherry from './assets/cherry.svg';
 import lemon from './assets/lemon.svg';
 import orange from './assets/orange.svg';
 import watermelon from './assets/watermelon.svg';
-import { getRollResult, cashOut, useState } from './server.js';
-import { chance } from './helpers.js';
+import { getRollResult, cashOut, chance, useState } from './store.js';
 
 const { credit, account_credit } = useState();
 

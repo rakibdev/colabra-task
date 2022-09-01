@@ -1,5 +1,4 @@
 import { reactive, toRefs } from 'vue';
-import { chance } from './helpers.js';
 
 const state = reactive({
   credit: 10,
@@ -13,6 +12,10 @@ const rewards = {
   lemon: 20,
   orange: 30,
   watermelon: 40
+};
+
+const chance = percent => {
+  return Math.random() < percent / 100;
 };
 
 const reRollNeeded = () => {
@@ -43,4 +46,4 @@ const cashOut = () => {
   credit.value = 0;
 };
 
-export { useState, getRollResult, cashOut };
+export { useState, getRollResult, cashOut, chance };
